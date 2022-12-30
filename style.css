@@ -118,6 +118,14 @@ section {
   padding: 100px;
 }
 
+.midnights-section {
+  background: linear-gradient(
+    112.5deg,
+    rgba(95, 10, 135) 11.4%,
+    rgb(164, 80, 139) 60.2%
+  );
+}
+
 .music,
 .awards {
   background: radial-gradient(
@@ -192,6 +200,10 @@ section {
 .grid {
   display: grid;
   grid-gap: 64px;
+}
+
+.grid-1-column {
+  grid-template-columns: 1fr;
 }
 
 .grid-2-col {
